@@ -1,0 +1,15 @@
+/*スマホ向けレイアウト*/
+@media (max-width: 670px){
+    table{
+      width:100%;
+    }
+    .container{
+      flex-direction: column
+    }
+    footer p{
+      font-size:11px;
+    }
+    body{
+      margin:0 20px;
+    }
+}
